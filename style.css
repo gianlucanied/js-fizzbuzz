@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat&family=Open+Sans&family=PT+Sans:ital@0;1&family=Poppins&family=Roboto&display=swap');
+
+
+
+body {
+    background-color: #083B4C;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    gap: 1%;
+    flex-wrap: wrap;
+    margin: 0 20%;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1389B2;
+    width: 115px;
+    height: 115px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    color: black;
+
+}
+
+.fizz {
+    background-color: #0CD6A1;
+}
+
+.buzz {
+    background-color: #FFD166;
+}
+
+.fizzbuzz {
+    background-color: #F0466F;
+}
